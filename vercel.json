@@ -1,8 +1,7 @@
 {
-  "version": 2,
   "functions": {
     "peakgpt.js": {
-      "runtime": "@vercel/node@18"
+      "runtime": "nodejs18.x"
     }
   },
   "routes": [
