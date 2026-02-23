@@ -1,0 +1,13 @@
+{
+  "name": "peakgpt",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "peakgpt.js",
+  "scripts": {
+    "start": "node peakgpt.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
