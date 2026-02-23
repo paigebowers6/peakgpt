@@ -1,13 +1,14 @@
 {
+  "version": 2,
   "functions": {
-    "peakgpt.js": {
-      "runtime": "nodejs18.x"
+    "api/**/*.ts": {
+      "runtime": "@vercel/node@2.20.2"
+    },
+    "api/**/*.js": {
+      "runtime": "@vercel/node@2.20.2"
     }
   },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/peakgpt.js"
-    }
+    { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
 }
